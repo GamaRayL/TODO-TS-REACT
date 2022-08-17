@@ -1,0 +1,11 @@
+.todoList {
+    display: flex;
+    flex-direction: column;
+    max-width: 315px;
+    background-color: #f0f0f0d2;
+}
+
+.wrapForField {
+    display: flex;
+    margin: 8px;
+}

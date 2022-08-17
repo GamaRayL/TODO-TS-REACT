@@ -1,5 +1,6 @@
 body {
     background-color: #6dd5ed;
+    font-family: 'Roboto', sans-serif;
 }
 
 .app {
@@ -13,7 +14,7 @@ body {
 
 .box {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2.4fr;
     background-color: #FFFFFF;
     box-shadow: 1px 4px 6px 1px #2193b0;
     min-height: 600px;

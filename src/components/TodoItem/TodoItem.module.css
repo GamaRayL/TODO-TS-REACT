@@ -1,0 +1,38 @@
+.todoItem {
+    height: 24px;
+    margin: 8px;
+    padding: 4px;
+    color: #6d6d6d;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px 0 #c9c9c9;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.itemIcon {
+    cursor: pointer;
+    width: 18px;
+    height: 18px;
+    transition: 0.3s ease;
+}
+
+.itemIcon:hover {
+   fill: #353535;
+   transform: scale(1.2)
+}
+
+.title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0 0 0 6px;
+}
+
+.wrap {
+    display: flex;
+    max-width: 270px;
+}
